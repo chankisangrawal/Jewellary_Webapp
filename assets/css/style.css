@@ -72,7 +72,7 @@ h6,
     transition: all 0.5s;
     transition: all 0.5s;
     padding: 10px 0;
-    background: black;
+    background: rgb(29, 34, 44);
 }
 
 #header.header-scrolled {
@@ -530,7 +530,7 @@ section {
 }
 
 .about .container {
-    box-shadow: 0 5px 25px 0 rgba(142, 184, 226, 0.6);
+    box-shadow: 0 5px 25px 0 rgba(100, 113, 126, 0.6);
     transition: all 0.3s ease-in-out;
     background: #fff;
     /*box-shadow: 0px 2px 12px rgba(224, 182, 182, 0.8);*/
@@ -1007,12 +1007,13 @@ section {
 }
 
 .team .member .pic {
-    border-radius: 4px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
 .team .member img {
     transition: all ease-in-out 0.4s;
+    width:400px;
 }
 
 .team .member:hover img {
@@ -1024,9 +1025,10 @@ section {
     bottom: -48px;
     left: 20px;
     right: 20px;
-    background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    opacity: 90%;
+    background: linear-gradient(360deg, #373a3d 0%, rgba(87, 96, 105, 0.9) 35%, rgba(182, 202, 219, 0.8) 100%);
     padding: 15px 0;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .team .member h4 {
